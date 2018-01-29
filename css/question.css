@@ -1,0 +1,162 @@
+
+/**************************** Answer ****************************/
+#question_title{
+    float:center;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:30px;
+}
+
+.cmt_title{
+    padding:2px;
+    height:70px;
+    width:750px;
+    font-weight:bold;
+    border: 2px #DCDCDC solid;
+    margin-top:10px;
+    overflow-wrap: break-word;
+    background: #f1f1f1; 
+ } 
+
+#answer_num{
+    height:15px;
+    width:15px;
+    border: 2px orange solid;
+    text-align: center;
+}
+
+
+#questiontitle{
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 2px #DCDCDC solid
+}
+.eml_div{
+    font-weight:bold;
+    font-size:16px;
+    border-bottom:2px #DCDCDC solid;
+    margin-bottom:10px;
+}
+
+
+.rate_div{
+    font-weight:bold;
+    color:#ff6a00;
+    margin-bottom:10px;
+}
+.tea_div{   
+    float:right;
+    font-weight:bold;
+    color:#ff6a00;
+    margin-bottom:10px;
+}
+
+.cmt_div{
+    padding:5px;
+    width:98%;
+    height:160px;
+    font-weight:bold;
+    border: 2px #DCDCDC solid;
+    margin-top:10px;
+    overflow-wrap: break-word; 
+}
+
+#time_div{
+    font-size: 14px;
+    margin-right: auto;
+    margin-bottom: 1px;
+}
+
+.info{color:grey; font-weight:normal; font-size:14px}
+
+#coursetitle{
+    margin:10px;
+    font-size:40px;
+    font-weight:bold;
+}
+
+#pagecount{
+    font-size:16px;
+    margin:30px;
+    font-weight:bold;
+}
+
+#pagecount a{
+    font-size:16px;
+    margin:30px;
+    text-decoration:none;
+}
+
+#pagecount span{
+    margin-right:30px
+}
+
+#answer_list{
+    width:900px;
+    position:center;
+    margin:auto;
+
+
+}
+#listbutton{
+    margin-left: 650px;
+    margin-top:-30px;
+}
+
+/*************************************************************************
+                                Question area
+/*********x****************************************************************/
+#comment-area{
+    background-image:url(../img/header.jpg);
+    background-size:100%;
+    border: 1px solid #CCC;
+    width:760px;
+    height: 335px;
+    border-radius:5px;
+    padding:20px;
+    margin-right: auto;
+    margin-left: auto
+    float:right;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+/************** title area **************/
+#tc_input{
+    width:750px;
+    height:40px;
+    font-size:18px;
+    background-color:#DCDCDC;
+    border-radius:5px;
+    padding-left:12px ;
+}
+
+#tc_input:focus{
+    background-color:#fff;
+    border:3px solid #FF8C00;
+}
+
+/************** content area **************/
+#msg{
+    width:740px;
+    height:210px;
+    border-radius:5px;
+    font-size:18px;
+    padding:10px;
+    margin:20px auto 0;
+    outline: 0;
+    border:none;
+    background-color:#DCDCDC;
+}
+
+#msg:focus {
+  background-color:#fff;
+  border:3px solid #FF8C00; 
+}
+
+#msgbtn {
+    margin-top:5px;
+}

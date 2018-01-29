@@ -1,0 +1,57 @@
+/*************************************************************************
+                                header area
+/*************************************************************************/
+#head_area{
+    margin:0 auto;
+    border-radius: 5px;
+    width: 1200px;
+    height:120px;
+    background-size: 100%;
+    border: 1px solid #CCC;
+    margin-bottom:5px;
+}
+
+#head_cnt{
+    height:120px;
+    padding:0; 
+}
+
+#logo img{   
+    float:left;
+    margin:-5px 50px;
+    width: 130px;
+    height:130px;
+}
+
+/***************** account area ****************/
+
+#account{
+    width:300px;
+    float:right;
+    font-size:16px;
+    text-align:right
+}
+
+#account p{
+    color:#fff;
+    float:left;
+}
+
+#account img{
+    width:50px;
+    height:50px;
+    float:left;
+    margin:10px
+}
+#account .name{
+    font-weight:bold;
+    color:orange;
+}
+
+
+#account .btn{
+    display:inline-block;
+    margin-top:20px;       
+    margin-right:10px;
+}
+

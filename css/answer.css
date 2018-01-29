@@ -1,0 +1,118 @@
+/******************* Quesion *********************/
+#question_title{
+    float:center;
+    position: center;
+    margin: auto;
+    height: 100px;
+    width: 750px;
+    margin-bottom:30px;
+}
+
+.cmt_title{
+    padding:2px;
+    height:130px;
+    width:750px;
+    font-weight:bold;
+    border: 2px #DCDCDC solid;
+    margin-top:10px;
+    overflow-wrap: break-word;
+    background: #f1f1f1; 
+ } 
+
+#questiontitle{
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom:2px #DCDCDC solid;
+}
+.eml_div{
+    font-weight:bold;
+    font-size:16px;
+    border-bottom:2px #DCDCDC solid;
+    margin-bottom:10px;
+}
+
+.tea_div{   
+    float:right;
+    font-weight:bold;
+    color:#ff6a00;
+    margin-bottom:10px;
+}
+
+.time_div{
+    float:right;
+    font-size:14px;
+}
+
+
+/******************* Answer List *********************/
+#answer-Holder{
+    float:center;
+    position: center;
+    margin: auto;
+    padding:20px;
+    height: 210px;
+    width: 750px;
+    margin-bottom:30px;
+    background:#f1f1f1;
+    border-radius:5px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.cmt_div{
+    padding: 5px;
+    height:160px;
+    width: 750px;
+    font-weight:bold;
+    border: 2px #DCDCDC solid;
+    margin-top:10px;
+    overflow-wrap: break-word; 
+}
+
+/*************************** Post Answer *********************************/
+#comment_area{
+    background-image:url(../img/header.jpg);
+    background-size:100%;
+    border-radius:5px;
+    padding:10px;
+    margin:auto;
+    height: 260px;
+    width:770px;
+    margin-bottom:30px;
+    background:#f1f1f1;
+    border-radius:5px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#msg{
+    width:750px;
+    height:210px;
+    border-radius:5px;
+    font-size:18px;
+    padding:10px;
+    outline: 0;
+    border:none;
+    background-color:#DCDCDC;
+}
+
+#msg:focus {
+  background-color:#fff;
+  border:3px solid #FF8C00; 
+}
+
+#msgbtn {
+	text-align: center;
+	font-weight: bold;
+	font-size:11px;
+	height:23px;
+    margin-bottom: 1px;
+}
+
+#answer_title {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+}
